@@ -13,7 +13,7 @@ setup(
         'torchvision==0.20.1',
         'opencv-python==4.10.0.84',
         'torch_cluster==1.6.3',
-        'safetensors==0.4.5',
+        'safetensors==0.5.3',
         'matplotlib==3.9.3'
     ],
     entry_points={
