@@ -1,10 +1,11 @@
-torch==2.2.2
-numpy==1.25.2
+torch==2.5.1
+numpy>=1.19,<2.0
 huggingface_hub==0.26.5
 einops==0.8.1
-Pillow==11.0.0
-torchvision==0.17.2
+Pillow<11.0.0
+torchvision==0.20.1
 opencv-python==4.10.0.84
 torch_cluster==1.6.3
+-f https://pytorch-geometric.com/whl/torch-2.5.1+cu121.html
 safetensors==0.4.5
 matplotlib==3.9.3
